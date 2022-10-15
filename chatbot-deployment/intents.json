@@ -1,0 +1,177 @@
+{
+  "intents": [
+    {
+      "tag": "category",
+      "patterns": [
+        "category"
+      ],
+      "responses": [
+                      "select and type number or category name to get all category form<br>111.form<br>222.Certificate<br>333.jamin(land)<br>444.other"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi, welcome to the Revenue Department chatbot.select which number of document you need type number of document in chat. Here some form list.<br>1.Farmer Certificate <br>2.ahargruh prmanpatro<br>3.land form application <br>4.gamtad vadhara<br>5.hakk kami sagir namuno<br>6.patnagarni varsae karva<br>7.samajik vanikaran jamin mangani<br>8.zeri jansono sangrah<br>or talk to our agent at +9109090990"
+      ]
+    },
+    {
+      "tag": "agent",
+      "patterns": [
+        "agent"
+      ],
+      "responses": [
+        "if we didn't satisfy you with our response please talk to our agent at +9109090990"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help"
+      ],
+      "responses": [
+        "Hi, welcome to the Revenue Department chatbot.select which number of document you need type number of document in chat. Here some form list.<br>1.Farmer Certificate <br>2.ahargruh prmanpatro<br>3.land form application <br>4.gamtad vadhara<br>5.hakk kami sagir namuno<br>6.patnagarni varsae karva<br>7.samajik vanikaran jamin mangani<br>8.zeri jansono sangrah<br>or talk to our agent at +9109090990"
+      ]
+    },
+    {
+      "tag": "form",
+      "patterns": [
+        "farmer certificate",
+        "famer"
+        ,"1"
+      ],
+      "responses": [
+        "Step 1: Log on to the <a style='height=18px;'class='link' href='https://ap.meeseva.gov.in/'>Meese</a><br>Step 2: Select Revenue Department<br>Step 3: Select Issue of Small and Marginal Farmer Certificate Service<br>Step 4: Issue of Small and Marginal Farmer Certificate Request Screen<br>Step 5: Enter personal details(<a class='link' href='https://eec.ilts.workers.dev/0:/Hackthon/Group%201.pdf'>More info</a>)<br>Step 6: Enter land details(<a class='link' href='https://eec.ilts.workers.dev/0:/Hackthon/Group%201.pdf'>More info</a>)<br>Step 7: Enter Informant Details(<a class='link' href='https://eec.ilts.workers.dev/0:/Hackthon/Group%201.pdf'>More info</a>)<br>Step 8: Uploading the Documents<br>Step 9: Application Payment<br>Step 10: Delivery of the Application<br>More information you need for this form(<a class='link' href='https://eec.ilts.workers.dev/0:/Hackthon/Group%201.pdf'>More info</a>)"
+      ]
+    },
+    {
+      "tag": "form1",
+      "patterns": [
+        "ahargruh prmanpatro"
+        ,"2"
+      ],
+      "responses": [
+        "Step 1: Appilcation letter<br>Step 2:  Attached court fees stamp <br>Step 3: 'no objection certificate' from local health officer<br>Step 4: Original Currency of Renewal deposit amount<br>Step 5: Original license<br>Step 6: a copy of the lease agreement for the renewal period, if the place of business is leased<br>Step 7: Attach Barcode sticker <br>"
+      ]
+    },
+    {
+      "tag": "needs",
+      "patterns": [
+        "more information"
+      ],
+      "responses": [
+        "personal details:<br>Aadhaar No<br>Farmer’s Name<br>Father’s/Husband’s Name<br>District<br>Mandal<br>Village/Ward, Door No/House No<br>Locality/Land Mark<br>Pincode<br>Mobile No<br>Email ID<br>Ration Card No"
+      ]
+    },
+    {
+      "tag": "form2",
+      "patterns": [
+        "land application"
+        ,"3"
+      ],
+      "responses": [
+        "Step 1: Gross annual income (in Rupees) of the beneficiary and his family members<br>Step 2: A photograph showing his presence on the front side of the residential building (residential structure) for which the occupier has applied for recognition (legitimacy) and allotment of land <br>Step 3: To state certified copies annexed as evidence in support of his claim of occupancy : K- Regarding the occupancy of the tenant applicant <br>"
+      ]
+    },
+    {
+      "tag": "form3",
+      "patterns": [
+        "gamtad vadhara"
+        ,"4"
+      ],
+      "responses": [
+        "Step 1: Copy of resolution of Gram Panchayat (Resolution including mention of abatement if there is gauchar) <br>Step 2: List of eligible claimants for Dharthal plots signed by Talati and Sarpanch <br>Step 3: List of eligible claimants for Dharthal plots and List signed by Sarpanch <br>Step 4: Copy of 7/12 of the claimed land <br>Step 5: stamped with prescribed court fee<br>Step 6: A bar-code sticker is attached <br>Step 7: charges reimbursed"
+      ]
+    },
+    {
+      "tag": "form4",
+      "patterns": [
+        "hakk kami",
+        "sagir namuno",
+        "5"
+      ],
+      "responses": [
+        "Step 1: Lack of entitlement <br>Step 2: Affidavit of abatement of right <br>Step 3: Attested copy of death certificate in case of death by a minor <br>Step 4: Age Basis (Attested Copy of Full Living Certificate/Birth Certificate) <br>"
+      ]
+    },
+    {
+      "tag": "form5",
+      "patterns": [
+        "patnagarni"
+        ,"varsae karva"
+        ,"6"
+      ],
+      "responses": [
+        "Attested copies of the following proofs have to be enclosed with the application form.<br>Step 1: 7/12 of the total land held, 8-A and village no. All copies of No. 6. <br>Step 2: 7/12, 8-A of the acquired land and village no. All copies of No. 6. <br>Step 3: Attested copy of affected identity card. (if received) <br>Step 4: Proof of benefit received. E.g. Plot deed, rent agreement. <br>Step 5: Evidence of benefit claimed earlier, if any.<br>Step 6: Evidence of benefit claimed earlier and the office has responded.<br>Step 7: Instances of death of deceased persons in case of inheritance. <br>Step 8: Copy of ration card. <br>Step 9: Prescribed affidavit.<br>step 10: Copies of land revenue receipts up to the date of application, if the plot is received."
+      ]
+    },
+    {
+      "tag": "form6",
+      "patterns": [
+        "samajik vanikaran jamin mangani",
+        "samajik vanikaran",
+        "jamin mangani"
+        ,"7"
+      ],
+      "responses": [
+                      "Step 1: Attested copy of registration certificate of organization / trust. <br>Step 2: A copy of the constitution of the institution / trust society. <br>Step 3: Evidence of financial viability of the Institution Trust Society. (Bank Balance | Deposit etc. Details) (where applicable) <br>Step 4: Consent resolution of the institution / body regarding management demand for that purpose. <br>Step 5: Attested copies of village sample no.7/12 of the claimed land. <br>Step 6: Information outlining the activities carried out by the Institute / Trust. Details of performance during last three years.<br>Step 7: Audit report of last three years <br>Step 8: A map of the claimed land and a land use plan (Land Use Plan). <br>Step 9: Zoning Certificate.<br>Note: 1. The applicant has to fill the complete details in the application in a clearly legible manner. Also, attested copies of all the proofs as requested must be attached along with the application. Otherwise the application will be returned."
+      ]
+    },
+    {
+      "tag": "form7",
+      "patterns": [
+        "zeri"
+        ,"jansono sangrah"
+        ,"8"
+      ],
+      "responses": [
+                      "Step 1: Police example of character.(As per Annexure-2/89) <br>Step 2: Required Scrutiny Fee Rs. 20  Original challan deposited in State Bank of India. <br>Step 3: 'No Objection Certificate' (as per Annexure-3/89) from Local Body (Nagar Palika | Gram.Pt) <br>Step 4: Proof of ownership of the place (property card, tax bill, copy of 7/12) | Copy of rental agreement if rental premises. <br>Step 5: A map with measurements of the location of the space. (in four copies)"
+      ]
+    },
+    {
+      "tag": "category_form",
+      "patterns": [
+        "form"
+      ],
+      "responses": [
+                      "Which type of form you need select and type form no in chat.<br>3. land form application"
+      ]
+    },
+    {
+      "tag": "category_certificate",
+      "patterns": [
+        "Certificate",
+        "certi"
+      ],
+      "responses": [
+                      "Which type of Certificate you need select and type form no in chat.<br>1. Farmer Certificate"
+      ]
+    },
+    {
+      "tag": "category_jamin",
+      "patterns": [
+        "jamin"
+      ],
+      "responses": [
+                      "Which type of jamin form you need select and type form no in chat.<br>3.land form application"
+      ]
+    },
+    {
+      "tag": "category_other",
+      "patterns": [
+        "other"
+      ],
+      "responses": [
+                      "Which type of jamin form you need select and type form no in chat.<br>3.land form application"
+      ]
+    }
+  ]
+}

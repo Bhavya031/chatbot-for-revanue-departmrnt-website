@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://eec.ilts.workers.dev/0://DALL%C2%B7E%202022-10-05%2018.48%201.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Welcome to Revenue department HelpDesk</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div class="messages__item messages__item--visitor">Hi, welcome to the Revenue Department chatbot.
+                    select which number of document you need type number of document in chat. Here some form list.<br>1.Farmer Certificate <br>2.ahargruh prmanpatro<br>3.land form application <br>4.gamtad vadhara<br>5.hakk kami sagir namuno<br>6.patnagarni varsae karva<br>7.samajik vanikaran jamin mangani<br>8.zeri jansono sangrah</div>
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon-svg.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+        </script>
+</body>
+</html>
