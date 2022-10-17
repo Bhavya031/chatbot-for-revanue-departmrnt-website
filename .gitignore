@@ -1,3 +1,4 @@
 /.vscode
 /venv
 /chatbot-deployment/venv
+/chatbot-deployment/__pycache__
