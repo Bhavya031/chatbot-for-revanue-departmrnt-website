@@ -1,3 +1,4 @@
 /.vscode
 /venv
 /chatbot-deployment/templates/nltk.py
+/chatbot-deployment/__pycache__
