@@ -1,4 +1,5 @@
 /.vscode
 /venv
-/chatbot-deployment/templates/nltk.py
+/chatbot-deployment/templates/bhavya.py
 /chatbot-deployment/__pycache__
+/data.pth
